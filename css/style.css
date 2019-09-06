@@ -1,0 +1,182 @@
+/*
+  Author: Sifayet Ullah;
+  contact: sifayet.ullah@outlook.com
+  
+
+  Tabel of Contents:
+  
+  1. header section.
+
+
+
+
+
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+a,a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section css start */
+.customNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#mynav ul li {
+  margin: 0 10px;
+}
+
+#mynav ul li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#mynav ul li a:hover {
+  text-decoration: none;
+  color: #a3a3a3;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/* header section css end */
+
+/* banner section css start */
+#banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))), url(../images/about-intro.jpg);
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/about-intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #b3b3b3;
+}
+
+.banner-text h3 {
+  font-size: 45px;
+}
+
+.banner-text h2 {
+  font-size: 50px;
+}
+
+.banner-text h2 span {
+  color: #fff !important;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #e3e3e3;
+}
+
+.banner-text a {
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+/* banner section css end */
+
+/* about section css start */
+#about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-img {
+  text-align: right;
+}
+
+.about-img img {
+  height: 400px;
+}
+
+.about-text {
+  color: #000;
+  font-size: 20px;
+  color: #324B4C;
+}
+
+.about-text a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.about-text a:hover {
+  text-decoration: none;
+}
+/* about section css end */
+
+/* footer section css start */
+.footer{
+    padding: 70px 0px;
+    background-color: #242424 !important;
+}
+
+.footer .footer-alt p {
+    font-size: 15px;
+  color: #fff !important;
+}
+
+.footer .footer-alt ul li a {
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.footer .footer-alt ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* footer section css end */
